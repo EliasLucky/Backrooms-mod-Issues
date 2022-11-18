@@ -1,2 +1,5 @@
 # Backrooms-mod-Issues
-Here are all issues regarding the latest version of Backrooms Ultimate Edition mod
+
+Hello! And welcome to the main page of issues for Backrooms Ultimate Edition mod, Currently only for version 0.1.4.
+All bugs submitted here will be fixed in the next version of the mod.
+Please make sure that before submitting a bug, check that it still exist in the latest version of the mod, and check that it isn't in the closed section.
