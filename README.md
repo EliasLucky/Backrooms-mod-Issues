@@ -1,4 +1,4 @@
-# Backrooms-mod-Issues
+# Backrooms mod Issues
 
 <p>Hello! And welcome to the main page of issues for Backrooms Ultimate Edition mod, Currently only for version 0.1.4.<br>
 All bugs submitted here will be fixed in the next version of the mod.<br>
