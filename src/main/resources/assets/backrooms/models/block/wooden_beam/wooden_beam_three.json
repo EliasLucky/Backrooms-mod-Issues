@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_bottom_top",
+	"textures": {
+		"bottom": "backrooms:blocks/wooden_beam/wooden_beam_bottom_three",
+		"top": "backrooms:blocks/wooden_beam/wooden_beam_top_three",
+		"side": "backrooms:blocks/wooden_beam/wooden_beam_single"
+	}
+}

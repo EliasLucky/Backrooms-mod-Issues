@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"EEE",
+		"#$#"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:stained_glass_pane",
+			"data": 0
+		},
+		"E": {
+			"item": "minecraft:daylight_detector"
+		},
+		"$": {
+			"item": "minecraft:repeater"
+		}
+	},
+	"result": {
+		"item": "backrooms:light_on",
+		"count": 4
+	}
+}

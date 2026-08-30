@@ -1,0 +1,131 @@
+{
+	"variants": {
+		"facing=north,lower=false,middle=false,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_single"
+		},
+		"facing=south,lower=false,middle=false,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_single",
+			"y": 180
+		},
+		"facing=west,lower=false,middle=false,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_single",
+			"y": 270
+		},
+		"facing=east,lower=false,middle=false,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_single",
+			"y": 90
+		},
+		
+		"facing=north,lower=true,middle=true,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_middle"
+		},
+		"facing=south,lower=true,middle=true,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_middle",
+			"y": 180
+		},
+		"facing=west,lower=true,middle=true,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_middle",
+			"y": 270
+		},
+		"facing=east,lower=true,middle=true,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_middle",
+			"y": 90
+		},
+		
+		"facing=north,lower=true,middle=false,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_bottom"
+		},
+		"facing=south,lower=true,middle=false,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_bottom",
+			"y": 180
+		},
+		"facing=west,lower=true,middle=false,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_bottom",
+			"y": 270
+		},
+		"facing=east,lower=true,middle=false,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_bottom",
+			"y": 90
+		},
+		
+		"facing=north,lower=false,middle=true,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_middle"
+		},
+		"facing=south,lower=false,middle=true,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_middle",
+			"y": 180
+		},
+		"facing=west,lower=false,middle=true,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_middle",
+			"y": 270
+		},
+		"facing=east,lower=false,middle=true,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_middle",
+			"y": 90
+		},
+		
+		"facing=north,lower=false,middle=false,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_top"
+		},
+		"facing=south,lower=false,middle=false,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_top",
+			"y": 180
+		},
+		"facing=west,lower=false,middle=false,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_top",
+			"y": 270
+		},
+		"facing=east,lower=false,middle=false,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_top",
+			"y": 90
+		},
+		
+		"facing=north,lower=true,middle=true,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_single"
+		},
+		"facing=south,lower=true,middle=true,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_single",
+			"y": 180
+		},
+		"facing=west,lower=true,middle=true,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_single",
+			"y": 270
+		},
+		"facing=east,lower=true,middle=true,upper=false": {
+			"model": "backrooms:wooden_glass/wooden_glass_single",
+			"y": 90
+		},
+		
+		"facing=north,lower=false,middle=true,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_single"
+		},
+		"facing=south,lower=false,middle=true,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_single",
+			"y": 180
+		},
+		"facing=west,lower=false,middle=true,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_single",
+			"y": 270
+		},
+		"facing=east,lower=false,middle=true,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_single",
+			"y": 90
+		},
+		
+		"facing=north,lower=true,middle=false,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_single"
+		},
+		"facing=south,lower=true,middle=false,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_single",
+			"y": 180
+		},
+		"facing=west,lower=true,middle=false,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_single",
+			"y": 270
+		},
+		"facing=east,lower=true,middle=false,upper=true": {
+			"model": "backrooms:wooden_glass/wooden_glass_single",
+			"y": 90
+		}
+	}
+}

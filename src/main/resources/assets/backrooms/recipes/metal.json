@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" L ",
+		"L#L",
+		" L "
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:iron_block"
+		},
+		"L": {
+			"item": "minecraft:iron_ingot"
+		}
+	},
+	"result": {
+		"item": "backrooms:metal",
+		"count": 1
+	}
+}

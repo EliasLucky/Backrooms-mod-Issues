@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_bottom_top",
+	"textures": {
+		"bottom": "backrooms:blocks/bottom_wallpaper_down",
+		"top": "backrooms:blocks/dotted_yellow_wallpaper",
+		"side": "backrooms:blocks/bottom_dotted_yellow_wallpaper"
+	}
+}

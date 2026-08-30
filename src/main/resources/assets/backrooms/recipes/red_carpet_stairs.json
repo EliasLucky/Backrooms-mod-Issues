@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#  ",
+		"## ",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "backrooms:red_carpet"
+		}
+	},
+	"result": {
+		"item": "backrooms:red_carpet_stairs",
+		"count": 4
+	}
+}

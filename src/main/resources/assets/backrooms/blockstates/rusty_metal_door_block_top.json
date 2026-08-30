@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "backrooms:door_teleport/rusty_metal_door_block_top" }
+    }
+}

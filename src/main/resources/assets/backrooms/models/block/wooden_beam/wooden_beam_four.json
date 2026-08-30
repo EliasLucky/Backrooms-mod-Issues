@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"end": "backrooms:blocks/wooden_beam/wooden_beam_top_four",
+		"side": "backrooms:blocks/wooden_beam/wooden_beam_single"
+	}
+}

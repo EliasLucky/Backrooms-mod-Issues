@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#L"
+	],
+	"key": {
+		"#": {
+			"item": "backrooms:cement_bricks"
+		},
+		"L": {
+			"item": "minecraft:dye",
+			"data": 14
+		}
+	},
+	"result": {
+		"item": "backrooms:orange_cement_bricks",
+		"count": 1
+	}
+}

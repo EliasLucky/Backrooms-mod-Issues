@@ -1,0 +1,49 @@
+{
+	"tear":
+	{
+		"category": "block",
+		"subtitle": "tear",
+		"sounds": [{ "name": "backrooms:tear" }]
+	},
+	"humm_buzz":
+	{
+		"category": "block",
+		"subtitle": "humm_buzz",
+		"sounds": [
+			{ "name": "backrooms:level_noise/buzz1" },
+			{ "name": "backrooms:level_noise/buzz2" },
+			{ "name": "backrooms:level_noise/buzz3" },
+			{ "name": "backrooms:level_noise/buzz4" }
+		]
+	},
+	"music_disc.five_nights_at_freddys":
+	{
+		"category": "music",
+		"subtitle": "music_disc.five_nights_at_freddys",
+		"sounds": [{ "name": "backrooms:music/records/five_nights_at_freddys", "stream": true }]
+	},
+	"music_disc.good_night":
+	{
+		"category": "music",
+		"subtitle": "music_disc.good_night",
+		"sounds": [{ "name": "backrooms:music/records/good_night", "stream": true }]
+	},
+	"music_disc.crush":
+	{
+		"category": "music",
+		"subtitle": "music_disc.crush",
+		"sounds": [{ "name": "backrooms:music/records/crush", "stream": true }]
+	},
+	"music_disc.comfort_chain":
+	{
+		"category": "music",
+		"subtitle": "music_disc.comfort_chain",
+		"sounds": [{ "name": "backrooms:music/records/comfort_chain", "stream": true }]
+	},
+	"music_disc.six_forty_seven":
+	{
+		"category": "music",
+		"subtitle": "music_disc.six_forty_seven",
+		"sounds": [{ "name": "backrooms:music/records/six_forty_seven", "stream": true }]
+	}
+}

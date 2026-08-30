@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "backrooms:fluorescent_ceiling_lamp_on" },
+		"facing=south": { "model": "backrooms:fluorescent_ceiling_lamp_on", "y": 180 },
+		"facing=west": { "model": "backrooms:fluorescent_ceiling_lamp_on", "y": 270 },
+		"facing=east": { "model": "backrooms:fluorescent_ceiling_lamp_on", "y": 90 }
+	}
+}

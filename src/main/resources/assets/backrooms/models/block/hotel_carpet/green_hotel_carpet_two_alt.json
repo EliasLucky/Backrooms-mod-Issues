@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_bottom_top",
+	"textures": {
+		"bottom": "backrooms:blocks/hotel_carpet/green_hotel_carpet",
+		"top": "backrooms:blocks/hotel_carpet/green_hotel_carpet_two_alt",
+		"side": "backrooms:blocks/hotel_carpet/green_hotel_carpet"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "backrooms:white_wallpaper_pattern"
+		},
+		{
+			"item": "backrooms:white_wallpaper_pattern"
+		},
+		{
+			"item": "minecraft:planks",
+			"data": 0
+		},
+		{
+			"item": "backrooms:white_wallpaper_pattern"
+		},
+		{
+			"item": "backrooms:white_wallpaper_pattern"
+		}
+	],
+	"result": {
+		"item": "backrooms:white_wallpaper",
+		"count": 1
+	}
+}

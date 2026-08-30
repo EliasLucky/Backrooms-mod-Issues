@@ -1,0 +1,131 @@
+{
+	"variants": {
+		"facing=north,lower=false,middle=false,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single"
+		},
+		"facing=south,lower=false,middle=false,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single",
+			"y": 180
+		},
+		"facing=west,lower=false,middle=false,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single",
+			"y": 270
+		},
+		"lower=false,middle=false,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single",
+			"y": 90
+		},
+		
+		"facing=north,lower=true,middle=true,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_middle"
+		},
+		"facing=south,lower=true,middle=true,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_middle",
+			"y": 180
+		},
+		"facing=west,lower=true,middle=true,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_middle",
+			"y": 270
+		},
+		"lower=true,middle=true,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_middle",
+			"y": 90
+		},
+		
+		"facing=north,lower=true,middle=false,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_bottom"
+		},
+		"facing=south,lower=true,middle=false,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_bottom",
+			"y": 180
+		},
+		"facing=west,lower=true,middle=false,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_bottom",
+			"y": 270
+		},
+		"lower=true,middle=false,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_bottom",
+			"y": 90
+		},
+		
+		"facing=north,lower=false,middle=true,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_middle"
+		},
+		"facing=south,lower=false,middle=true,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_middle",
+			"y": 180
+		},
+		"facing=west,lower=false,middle=true,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_middle",
+			"y": 270
+		},
+		"lower=false,middle=true,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_middle",
+			"y": 90
+		},
+		
+		"facing=north,lower=false,middle=false,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_top"
+		},
+		"facing=south,lower=false,middle=false,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_top",
+			"y": 180
+		},
+		"facing=west,lower=false,middle=false,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_top",
+			"y": 270
+		},
+		"lower=false,middle=false,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_top",
+			"y": 90
+		},
+		
+		"facing=north,lower=true,middle=true,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single"
+		},
+		"facing=south,lower=true,middle=true,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single",
+			"y": 180
+		},
+		"facing=west,lower=true,middle=true,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single",
+			"y": 270
+		},
+		"lower=true,middle=true,upper=false": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single",
+			"y": 90
+		},
+		
+		"facing=north,lower=false,middle=true,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single"
+		},
+		"facing=south,lower=false,middle=true,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single",
+			"y": 180
+		},
+		"facing=west,lower=false,middle=true,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single",
+			"y": 270
+		},
+		"lower=false,middle=true,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single",
+			"y": 90
+		},
+		
+		"facing=north,lower=true,middle=false,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single"
+		},
+		"facing=south,lower=true,middle=false,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single",
+			"y": 180
+		},
+		"facing=west,lower=true,middle=false,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single",
+			"y": 270
+		},
+		"lower=true,middle=false,upper=true": {
+			"model": "backrooms:wooden_ceiling/wooden_ceiling_single",
+			"y": 90
+		}
+	}
+}

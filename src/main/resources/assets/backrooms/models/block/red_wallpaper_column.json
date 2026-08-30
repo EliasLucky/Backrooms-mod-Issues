@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"end": "backrooms:blocks/red_wallpaper_column_top",
+		"side": "backrooms:blocks/red_wallpaper_column"
+	}
+}

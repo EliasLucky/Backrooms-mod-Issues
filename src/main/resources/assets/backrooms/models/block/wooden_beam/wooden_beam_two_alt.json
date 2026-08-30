@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "backrooms:blocks/wooden_beam/wooden_beam_single",
+        "down": "backrooms:blocks/wooden_beam/wooden_beam_bottom_two_alt",
+        "up": "backrooms:blocks/wooden_beam/wooden_beam_top_two_alt",
+        "north": "backrooms:blocks/wooden_beam/wooden_beam_single",
+        "east": "backrooms:blocks/wooden_beam/wooden_beam_left",
+        "south": "backrooms:blocks/wooden_beam/wooden_beam_right",
+        "west": "backrooms:blocks/wooden_beam/wooden_beam_single"
+    }
+}

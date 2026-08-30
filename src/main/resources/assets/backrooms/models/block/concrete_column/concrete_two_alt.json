@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "backrooms:blocks/concrete_column/column_single",
+        "down": "backrooms:blocks/concrete_column/column_bottom_two_alt",
+        "up": "backrooms:blocks/concrete_column/column_top_two_alt",
+        "north": "backrooms:blocks/concrete_column/column_single",
+        "east": "backrooms:blocks/concrete_column/column_left",
+        "south": "backrooms:blocks/concrete_column/column_right",
+        "west": "backrooms:blocks/concrete_column/column_single"
+    }
+}

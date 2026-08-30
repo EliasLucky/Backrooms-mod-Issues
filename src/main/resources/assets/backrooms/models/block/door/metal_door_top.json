@@ -1,0 +1,7 @@
+{
+	"parent": "block/door_top",
+	"textures": {
+		"bottom": "backrooms:blocks/doors/metal_door_lower",
+		"top": "backrooms:blocks/doors/metal_door_upper"
+	}
+}

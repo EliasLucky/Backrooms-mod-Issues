@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "backrooms:blocks/wooden_ceiling",
+        "down": "backrooms:blocks/wooden_ceiling",
+        "up": "backrooms:blocks/wooden_ceiling",
+        "north": "backrooms:blocks/wooden_ceiling",
+        "east": "backrooms:blocks/wooden_ceiling_part",
+        "south": "backrooms:blocks/wooden_ceiling",
+        "west": "backrooms:blocks/wooden_ceiling_part"
+    }
+}

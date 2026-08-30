@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"L L",
+		"L#L",
+		"L L"
+	],
+	"key": {
+		"#": {
+			"item": "backrooms:red_wallpaper"
+		},
+		"L": {
+			"item": "minecraft:planks",
+			"data": 5
+		}
+	},
+	"result": {
+		"item": "backrooms:red_wallpaper_column",
+		"count": 1
+	}
+}

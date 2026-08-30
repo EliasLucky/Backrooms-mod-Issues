@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "backrooms:antique_elevator_button" },
+		"facing=south": { "model": "backrooms:antique_elevator_button", "y": 180 },
+		"facing=west": { "model": "backrooms:antique_elevator_button", "y": 270 },
+		"facing=east": { "model": "backrooms:antique_elevator_button", "y": 90 }
+	}
+}

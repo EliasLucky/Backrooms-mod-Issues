@@ -1,0 +1,7 @@
+{
+	"parent": "block/door_top_rh",
+	"textures": {
+		"bottom": "backrooms:blocks/doors/white_wooden_door_lower",
+		"top": "backrooms:blocks/doors/white_wooden_door_upper"
+	}
+}

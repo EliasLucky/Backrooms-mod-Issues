@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "backrooms:yellow_wallpaper_pattern"
+		},
+		{
+			"item": "backrooms:yellow_wallpaper_pattern"
+		},
+		{
+			"item": "minecraft:planks",
+			"data": 0
+		},
+		{
+			"item": "backrooms:yellow_wallpaper_pattern"
+		},
+		{
+			"item": "backrooms:yellow_wallpaper_pattern"
+		}
+	],
+	"result": {
+		"item": "backrooms:yellow_wallpaper",
+		"count": 1
+	}
+}

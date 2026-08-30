@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "backrooms:wall_candle" },
+		"facing=south": { "model": "backrooms:wall_candle", "y": 180 },
+		"facing=west": { "model": "backrooms:wall_candle", "y": 270 },
+		"facing=east": { "model": "backrooms:wall_candle", "y": 90 }
+	}
+}

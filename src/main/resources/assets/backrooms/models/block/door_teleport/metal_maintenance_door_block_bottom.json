@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "backrooms:blocks/doors/metal_maintenance_door_lower"
+	}
+}

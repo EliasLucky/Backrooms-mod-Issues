@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "backrooms:blocks/cement",
+        "top": "backrooms:blocks/cement",
+        "side": "backrooms:blocks/cement"
+    }
+}

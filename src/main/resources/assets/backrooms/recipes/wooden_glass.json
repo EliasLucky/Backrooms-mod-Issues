@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" L ",
+		"L#L",
+		" L "
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:glass"
+		},
+		"L": {
+			"item": "minecraft:planks",
+			"data": 5
+		}
+	},
+	"result": {
+		"item": "backrooms:wooden_glass",
+		"count": 1
+	}
+}

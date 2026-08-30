@@ -1,0 +1,7 @@
+{
+	"parent": "block/door_bottom_rh",
+	"textures": {
+		"bottom": "backrooms:blocks/doors/office_wooden_glass_door_lower",
+		"top": "backrooms:blocks/doors/office_wooden_glass_door_upper"
+	}
+}

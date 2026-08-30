@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "backrooms:antique_double_sconce" },
+		"facing=south": { "model": "backrooms:antique_double_sconce", "y": 180 },
+		"facing=west": { "model": "backrooms:antique_double_sconce", "y": 270 },
+		"facing=east": { "model": "backrooms:antique_double_sconce", "y": 90 }
+	}
+}

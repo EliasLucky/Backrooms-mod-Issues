@@ -1,0 +1,77 @@
+{
+	"variants": {
+		"back=false,forward=true,left=false,right=true": {
+			"model": "backrooms:orange_cement_bricks/bottom_two_alt",
+			"y": 90,
+			"uvlock": true
+		},
+		"back=false,forward=true,left=true,right=false": {
+			"model": "backrooms:orange_cement_bricks/bottom_two_alt",
+			"y": 0,
+			"uvlock": true
+		},
+		"back=true,forward=false,left=false,right=true": {
+			"model": "backrooms:orange_cement_bricks/bottom_two_alt",
+			"y": 180,
+			"uvlock": true
+		},
+		"back=true,forward=false,left=true,right=false": {
+			"model": "backrooms:orange_cement_bricks/bottom_two_alt",
+			"y": 270,
+			"uvlock": true
+		},
+		"back=false,forward=true,left=false,right=false": {
+			"model": "backrooms:orange_cement_bricks/bottom_one"
+		},
+		"back=false,forward=false,left=false,right=true": {
+			"model": "backrooms:orange_cement_bricks/bottom_one",
+			"y": 90,
+			"uvlock": true
+		},
+		"back=false,forward=false,left=true,right=false": {
+			"model": "backrooms:orange_cement_bricks/bottom_one",
+			"y": 270,
+			"uvlock": true
+		},
+		"back=true,forward=false,left=false,right=false": {
+			"model": "backrooms:orange_cement_bricks/bottom_one",
+			"y": 180,
+			"uvlock": true
+		},
+		"back=false,forward=false,left=false,right=false": {
+			"model": "backrooms:orange_cement_bricks/bottom_single"
+		},
+		"back=true,forward=true,left=false,right=false": {
+			"model": "backrooms:orange_cement_bricks/bottom_two",
+			"y": 90,
+			"uvlock": true
+		},
+		"back=true,forward=true,left=true,right=false": {
+			"model": "backrooms:orange_cement_bricks/bottom_three",
+			"y": 270,
+			"uvlock": true
+		},
+		"back=true,forward=true,left=false,right=true": {
+			"model": "backrooms:orange_cement_bricks/bottom_three",
+			"y": 90,
+			"uvlock": true
+		},
+		"back=false,forward=false,left=true,right=true": {
+			"model": "backrooms:orange_cement_bricks/bottom_two",
+			"uvlock": true
+		},
+		"back=false,forward=true,left=true,right=true": {
+			"model": "backrooms:orange_cement_bricks/bottom_three",
+			"uvlock": true
+		},
+		"back=true,forward=false,left=true,right=true": {
+			"model": "backrooms:orange_cement_bricks/bottom_three",
+			"y": 180,
+			"uvlock": true
+		},
+		"back=true,forward=true,left=true,right=true": {
+			"model": "backrooms:orange_cement_bricks/bottom_four",
+			"uvlock": true
+		}
+	}
+}

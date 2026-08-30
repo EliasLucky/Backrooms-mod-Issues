@@ -1,0 +1,63 @@
+{
+	"variants": {
+		"back=false,forward=true,left=false,right=true": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_two_alt",
+			"y": 90
+		},
+		"back=false,forward=true,left=true,right=false": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_two_alt",
+			"y": 0
+		},
+		"back=true,forward=false,left=false,right=true": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_two_alt",
+			"y": 180
+		},
+		"back=true,forward=false,left=true,right=false": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_two_alt",
+			"y": 270
+		},
+		"back=false,forward=true,left=false,right=false": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_one"
+		},
+		"back=false,forward=false,left=false,right=true": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_one",
+			"y": 90
+		},
+		"back=false,forward=false,left=true,right=false": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_one",
+			"y": 270
+		},
+		"back=true,forward=false,left=false,right=false": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_one",
+			"y": 180
+		},
+		"back=false,forward=false,left=false,right=false": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_single"
+		},
+		"back=true,forward=true,left=false,right=false": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_two",
+			"y": 90
+		},
+		"back=true,forward=true,left=true,right=false": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_three",
+			"y": 270
+		},
+		"back=true,forward=true,left=false,right=true": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_three",
+			"y": 90
+		},
+		"back=false,forward=false,left=true,right=true": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_two"
+		},
+		"back=false,forward=true,left=true,right=true": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_three"
+		},
+		"back=true,forward=false,left=true,right=true": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_three",
+			"y": 180
+		},
+		"back=true,forward=true,left=true,right=true": {
+			"model": "backrooms:red_wallpaper_column_top/column_top_four"
+		}
+	}
+}

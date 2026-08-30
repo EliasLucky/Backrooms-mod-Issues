@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "backrooms:items/door/office_wooden_door"
+	}
+}
