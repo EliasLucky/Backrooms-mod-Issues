@@ -11,13 +11,13 @@ This repository also serves as the main page of issues for Backrooms Ultimate Ed
 All bugs submitted here will be fixed in the next version of the mod.
 Please make sure before submitting a bug that it still exist in the latest version of the mod and that it isn't in the closed section.
 
-## Contribution
+# Contribution
 
-### Can I contribute?
+## Can I contribute?
 
 Yes! If you are a coder feel free to *Fork* the repository and send your amazing Pull Requests!
 
-## Branches
+# Branches
 
 - `main` - production ready codebase
 - `dev` - completed but not yet released changes
