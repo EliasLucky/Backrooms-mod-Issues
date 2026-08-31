@@ -1,21 +1,16 @@
 package com.skittle.backrooms.world.dimensions.level0_2;
 
-import com.skittle.backrooms.world.dimensions.BackroomsChunkGenerator;
+import com.skittle.backrooms.world.features.BackroomsChunkGenerator;
 
-import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 
 public class Level0_2ChunkGenerator extends BackroomsChunkGenerator
 {
-	public Level0_2ChunkGenerator(World world, String structureLocation, ResourceLocation contextItem, boolean ignoreEntities)
-	{
-		super(world, structureLocation, contextItem, ignoreEntities, 67);
-		
-		initializeStructures();
-	}
+	private World world;
 	
-	private void initializeStructures()
+	Level0_2ChunkGenerator(World world)
 	{
+		this.world = world;
 		addStructure("type_a_corner_a");
 		addStructure("type_a_corner_b");
 		addStructure("type_a_corner_c");
@@ -230,4 +225,15 @@ public class Level0_2ChunkGenerator extends BackroomsChunkGenerator
 		addStructure("tolevel0_dot_type_a_union_intersection_e");
 		addStructure("tolevel0_type_i_corner_d");
 	}
+	
+	@Override
+	public String getStructureLocationForLevel() {
+		return "level0.2/";
+	}
+	
+	@Override
+	public World getWorld() {
+		return this.world;
+	}
+	
 }

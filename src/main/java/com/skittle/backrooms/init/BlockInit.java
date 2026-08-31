@@ -32,8 +32,6 @@ import com.skittle.backrooms.objects.blocks.WallpaperPillarTop;
 import com.skittle.backrooms.objects.blocks.WoodenBeam;
 import com.skittle.backrooms.objects.blocks.WoodenBlock;
 import com.skittle.backrooms.objects.blocks.WoodenGlassColumn;
-import com.skittle.backrooms.objects.blocks.dimensional.BackroomsDimensionalDoor;
-import com.skittle.backrooms.objects.blocks.dimensional.DoorType;
 import com.skittle.backrooms.objects.blocks.furniture.FurnitureChair;
 import com.skittle.backrooms.objects.blocks.furniture.FurnitureRoundTable;
 import com.skittle.backrooms.objects.blocks.furniture.FurnitureSquareTable;
@@ -93,7 +91,7 @@ public class BlockInit
 	public static final Block CEILING = new Ceiling("ceiling", Material.ROCK);
 	public static final Block STONE_CHECKERED = new CheckeredBlock("stone_checkered", Material.ROCK);
 	public static final Block FLUORESCENT_CEILING_LAMP_ON = new FluorescentCeilingLight("fluorescent_ceiling_lamp_on", Material.REDSTONE_LIGHT, SoundType.STONE, 2.0F, 1.0F, 15);
-	public static final Block FLUORESCENT_CEILING_LAMP_DAMAGED = new FluorescentCeilingLight("fluorescent_ceiling_lamp_damaged", Material.REDSTONE_LIGHT, SoundType.STONE, 2.0F, 1.0F, 8);
+	public static final Block FLUORESCENT_CEILING_LAMP_DAMAGES = new FluorescentCeilingLight("fluorescent_ceiling_lamp_damaged", Material.REDSTONE_LIGHT, SoundType.STONE, 2.0F, 1.0F, 8);
 	public static final Block FLUORESCENT_CEILING_LAMP_OFF = new FluorescentCeilingLight("fluorescent_ceiling_lamp_off", Material.REDSTONE_LIGHT, SoundType.STONE, 2.0F, 1.0F, 0);
 	public static final Block FLUORESCENT_WALL_VERTICAL_LAMP = new FluorescentWallLight("fluorescent_wall_vertical_lamp", Material.REDSTONE_LIGHT, SoundType.STONE, 2.0F, 1.0F, 15);
 	public static final Block ILLUMINATED_GLASS = new Glass("illuminated_glass", Material.GLASS, true, 15);
@@ -129,22 +127,22 @@ public class BlockInit
 	public static final Block OFFICE_WOODEN_DOOR = new BackroomsDoor("office_wooden_door", Material.WOOD, SoundType.WOOD, 3.0F, 3.0F, "axe");
 	public static final Block OFFICE_WOODEN_GLASS_DOOR = new BackroomsDoor("office_wooden_glass_door", Material.WOOD, SoundType.WOOD, 3.0F, 3.0F, "axe");
 	
-	public static final Block WHITE_WOODEN_DOOR_BLOCK_BOTTOM = new BackroomsDimensionalDoor("white_wooden_door_block_bottom", Material.WOOD, SoundType.WOOD, DoorType.WHITE_WOODEN_DOOR, 3.0F, 3.0F, false);
-	public static final Block WHITE_WOODEN_DOOR_BLOCK_TOP = new BackroomsDimensionalDoor("white_wooden_door_block_top", Material.WOOD, SoundType.WOOD, DoorType.WHITE_WOODEN_DOOR, 3.0F, 3.0F, false);
-	public static final Block METAL_DOOR_BLOCK_BOTTOM = new BackroomsDimensionalDoor("metal_door_block_bottom", Material.ANVIL, SoundType.METAL, DoorType.GRAY_METAL_DOOR, 3.0F, 3.0F, false);
-	public static final Block METAL_DOOR_BLOCK_TOP = new BackroomsDimensionalDoor("metal_door_block_top", Material.ANVIL, SoundType.METAL, DoorType.GRAY_METAL_DOOR, 3.0F, 3.0F, false);
-	public static final Block METAL_MAINTENANCE_DOOR_BLOCK_BOTTOM = new BackroomsDimensionalDoor("metal_maintenance_door_block_bottom", Material.ANVIL, SoundType.METAL, DoorType.GRAY_METAL_MAINTENANCE_DOOR, 3.0F, 3.0F, false);
-	public static final Block METAL_MAINTENANCE_DOOR_BLOCK_TOP = new BackroomsDimensionalDoor("metal_maintenance_door_block_top", Material.ANVIL, SoundType.METAL, DoorType.GRAY_METAL_MAINTENANCE_DOOR, 3.0F, 3.0F, false);
-	public static final Block METAL_BLACK_DOOR_BLOCK_BOTTOM = new BackroomsDimensionalDoor("metal_black_door_block_bottom", Material.ANVIL, SoundType.METAL, DoorType.BLACK_METAL_DOOR, 3.0F, 3.0F, false);
-	public static final Block METAL_BLACK_DOOR_BLOCK_TOP = new BackroomsDimensionalDoor("metal_black_door_block_top", Material.ANVIL, SoundType.METAL, DoorType.BLACK_METAL_DOOR, 3.0F, 3.0F, false);
-	public static final Block RUSTY_METAL_DOOR_BLOCK_BOTTOM = new BackroomsDimensionalDoor("rusty_metal_door_block_bottom", Material.ANVIL, SoundType.METAL, DoorType.RUSTY_METAL_DOOR, 3.0F, 3.0F, false);
-	public static final Block RUSTY_METAL_DOOR_BLOCK_TOP = new BackroomsDimensionalDoor("rusty_metal_door_block_top", Material.ANVIL, SoundType.METAL, DoorType.RUSTY_METAL_DOOR, 3.0F, 3.0F, false);
-	public static final Block OFFICE_WOODEN_DOOR_BLOCK_BOTTOM = new BackroomsDimensionalDoor("office_wooden_door_block_bottom", Material.WOOD, SoundType.WOOD, DoorType.BEIGE_WOODEN_DOOR, 3.0F, 3.0F, false);
-	public static final Block OFFICE_WOODEN_DOOR_BLOCK_TOP = new BackroomsDimensionalDoor("office_wooden_door_block_top", Material.WOOD, SoundType.WOOD, DoorType.BEIGE_WOODEN_DOOR, 3.0F, 3.0F, false);
-	public static final Block DARK_WOODEN_DOOR_BLOCK_BOTTOM = new BackroomsDimensionalDoor("dark_wooden_door_block_bottom", Material.WOOD, SoundType.WOOD, DoorType.DARK_WOODEN_DOOR, 3.0F, 3.0F, false);
-	public static final Block DARK_WOODEN_DOOR_BLOCK_TOP = new BackroomsDimensionalDoor("dark_wooden_door_block_top", Material.WOOD, SoundType.WOOD, DoorType.DARK_WOODEN_DOOR, 3.0F, 3.0F, false);
+	public static final Block WHITE_WOODEN_DOOR_BLOCK_BOTTOM = new BackroomsDoorBlock("white_wooden_door_block_bottom", Material.WOOD, SoundType.WOOD, 3.0F, 3.0F, 0);
+	public static final Block WHITE_WOODEN_DOOR_BLOCK_TOP = new BackroomsDoorBlock("white_wooden_door_block_top", Material.WOOD, SoundType.WOOD, 3.0F, 3.0F, 0);
+	public static final Block METAL_DOOR_BLOCK_BOTTOM = new BackroomsDoorBlock("metal_door_block_bottom", Material.ANVIL, SoundType.METAL, 3.0F, 3.0F, 0);
+	public static final Block METAL_DOOR_BLOCK_TOP = new BackroomsDoorBlock("metal_door_block_top", Material.ANVIL, SoundType.METAL, 3.0F, 3.0F, 0);
+	public static final Block METAL_MAINTENANCE_DOOR_BLOCK_BOTTOM = new BackroomsDoorBlock("metal_maintenance_door_block_bottom", Material.ANVIL, SoundType.METAL, 3.0F, 3.0F, 0);
+	public static final Block METAL_MAINTENANCE_DOOR_BLOCK_TOP = new BackroomsDoorBlock("metal_maintenance_door_block_top", Material.ANVIL, SoundType.METAL, 3.0F, 3.0F, 0);
+	public static final Block METAL_BLACK_DOOR_BLOCK_BOTTOM = new BackroomsDoorBlock("metal_black_door_block_bottom", Material.ANVIL, SoundType.METAL, 3.0F, 3.0F, 0);
+	public static final Block METAL_BLACK_DOOR_BLOCK_TOP = new BackroomsDoorBlock("metal_black_door_block_top", Material.ANVIL, SoundType.METAL, 3.0F, 3.0F, 0);
+	public static final Block RUSTY_METAL_DOOR_BLOCK_BOTTOM = new BackroomsDoorBlock("rusty_metal_door_block_bottom", Material.ANVIL, SoundType.METAL, 3.0F, 3.0F, 0);
+	public static final Block RUSTY_METAL_DOOR_BLOCK_TOP = new BackroomsDoorBlock("rusty_metal_door_block_top", Material.ANVIL, SoundType.METAL, 3.0F, 3.0F, 0);
+	public static final Block OFFICE_WOODEN_DOOR_BLOCK_BOTTOM = new BackroomsDoorBlock("office_wooden_door_block_bottom", Material.WOOD, SoundType.WOOD, 3.0F, 3.0F, 0);
+	public static final Block OFFICE_WOODEN_DOOR_BLOCK_TOP = new BackroomsDoorBlock("office_wooden_door_block_top", Material.WOOD, SoundType.WOOD, 3.0F, 3.0F, 0);
+	public static final Block DARK_WOODEN_DOOR_BLOCK_BOTTOM = new BackroomsDoorBlock("dark_wooden_door_block_bottom", Material.WOOD, SoundType.WOOD, 3.0F, 3.0F, 0);
+	public static final Block DARK_WOODEN_DOOR_BLOCK_TOP = new BackroomsDoorBlock("dark_wooden_door_block_top", Material.WOOD, SoundType.WOOD, 3.0F, 3.0F, 0);
 	
-	public static final Block WHITE_METAL_DOOR_BLOCK_BOTTOM = new BackroomsDimensionalDoor("white_metal_door_block_bottom", Material.WOOD, SoundType.WOOD, DoorType.WHITE_METAL_DOOR_GLOWING, 3.0F, 3.0F, true);
-	public static final Block WHITE_METAL_DOOR_BLOCK_TOP = new BackroomsDimensionalDoor("white_metal_door_block_top", Material.WOOD, SoundType.WOOD, DoorType.WHITE_METAL_DOOR_GLOWING, 3.0F, 3.0F, true);
+	public static final Block WHITE_METAL_DOOR_BLOCK_BOTTOM = new BackroomsDoorBlock("white_metal_door_block_bottom", Material.WOOD, SoundType.WOOD, 3.0F, 3.0F, 15);
+	public static final Block WHITE_METAL_DOOR_BLOCK_TOP = new BackroomsDoorBlock("white_metal_door_block_top", Material.WOOD, SoundType.WOOD, 3.0F, 3.0F, 15);
 	
 }

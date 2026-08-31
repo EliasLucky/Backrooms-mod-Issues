@@ -5,6 +5,7 @@ import com.skittle.backrooms.commands.DimensionTeleport;
 import com.skittle.backrooms.init.BiomeInit;
 import com.skittle.backrooms.init.BlockInit;
 import com.skittle.backrooms.init.DimensionInit;
+import com.skittle.backrooms.init.EntityInit;
 import com.skittle.backrooms.init.ItemInit;
 
 import net.minecraft.block.Block;
@@ -42,8 +43,9 @@ public class RegisterHandler
 	
 	public static void preInitRegistries() {
 		SoundsHandler.registerSoundEvents();
+		EntityInit.registerEntities();
+		RenderHandler.registerEntityRenders();
 		
-		//hotfix create new painting item because resource packs can change the minecraft paintings texture
 		EnumHelper.addArt("Cherry", "Cherry", 16, 16, 0, 16);
 		EnumHelper.addArt("Thing", "Thing", 16, 16, 16, 16);
 		EnumHelper.addArt("Forest", "Forest", 32, 32, 0, 160);

@@ -1,21 +1,18 @@
 package com.skittle.backrooms.world.dimensions.level2;
 
-import com.skittle.backrooms.world.dimensions.BackroomsChunkGenerator;
+import com.skittle.backrooms.api.OriginalContexts;
+import com.skittle.backrooms.world.features.BackroomsChunkGenerator;
 
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 
 public class Level2ChunkGenerator extends BackroomsChunkGenerator
 {
-	public Level2ChunkGenerator(World world, String structureLocation, ResourceLocation contextItem, boolean ignoreEntities)
-	{
-		super(world, structureLocation, contextItem, ignoreEntities, 78);
-		
-		initializeStructures();
-	}
+	private final World world;
 	
-	private void initializeStructures()
+	Level2ChunkGenerator(World world)
 	{
+		this.world = world;
 		addStructure("dark_hallway_a");
 		addStructure("dark_hallway_b");
 		addStructure("dark_hallway_c");
@@ -66,4 +63,20 @@ public class Level2ChunkGenerator extends BackroomsChunkGenerator
 		addStructure("tolevel3_dark_hallway_k");
 		addStructure("tolevel4_hallway_m");
 	}
+	
+	@Override
+	public ResourceLocation getContextItem() {
+		return OriginalContexts.LEVEL2_DIMENSION;
+	}
+
+	@Override
+	public String getStructureLocationForLevel() {
+		return "level2/";
+	}
+	
+	@Override
+	public World getWorld() {
+		return this.world;
+	}
+	
 }

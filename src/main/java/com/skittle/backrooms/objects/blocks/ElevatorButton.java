@@ -20,19 +20,19 @@ import net.minecraft.world.World;
 
 public class ElevatorButton extends DirectionalHorizontalWallBlock
 {
-	private static final AxisAlignedBB BOX_NORTH = new AxisAlignedBB(0.25D, 0.125D, 0.875D, 0.75D, 0.875D, 1.0D);
-	private static final AxisAlignedBB BOX_SOUTH = new AxisAlignedBB(0.25D, 0.125D, 0.0D, 0.75D, 0.875D, 0.125D);
-	private static final AxisAlignedBB BOX_WEST = new AxisAlignedBB(0.875D, 0.125D, 0.25D, 1.0D, 0.875D, 0.75D);
-	private static final AxisAlignedBB BOX_EAST = new AxisAlignedBB(0.0D, 0.125D, 0.25D, 0.125D, 0.875D, 0.75D);
+	static final AxisAlignedBB BOX_NORTH = new AxisAlignedBB(0.25D, 0.125D, 0.875D, 0.75D, 0.875D, 1.0D);
+	static final AxisAlignedBB BOX_SOUTH = new AxisAlignedBB(0.25D, 0.125D, 0.0D, 0.75D, 0.875D, 0.125D);
+	static final AxisAlignedBB BOX_WEST = new AxisAlignedBB(0.875D, 0.125D, 0.25D, 1.0D, 0.875D, 0.75D);
+	static final AxisAlignedBB BOX_EAST = new AxisAlignedBB(0.0D, 0.125D, 0.25D, 0.125D, 0.875D, 0.75D);
 	
-	private final int toDimension;
-	private final int fromDimension;
+	int toDimension;
+	int fromDimension;
 	
-	private final float posX;
-	private float posY;
-	private final float posZ;
+	float posX;
+	float posY;
+	float posZ;
 	
-	private final boolean canBeReturned;
+	boolean canBeReturned;
 
 	public ElevatorButton(String name, Material material, SoundType soundType, float hardness, float resistance, String harvestLevel, int fromDimension, int toDimension, float posX, float posY, float posZ, boolean canBeReturned)
 	{
@@ -64,26 +64,28 @@ public class ElevatorButton extends DirectionalHorizontalWallBlock
 	@Override
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ)
 	{
-		boolean cooldown = false;
+		boolean done = false;
 		
 		if (worldIn.isRemote)
 		{
 			return true;
 		}
-		
-		if (playerIn.dimension == this.fromDimension && !cooldown) {
-			cooldown = true;
-			teleportProcedure(playerIn, this.toDimension);
-		}
-			
-		if (this.canBeReturned) {
-			if (playerIn.dimension == this.toDimension && !cooldown) {
-				cooldown = true;
-				teleportProcedure(playerIn, this.fromDimension);
+		else
+		{
+			if (playerIn.dimension == this.fromDimension && !done) {
+				teleportProcedure(playerIn, this.toDimension);
+				done = true;
 			}
-		}
 			
-		return true;
+			if (this.canBeReturned) {
+				if (playerIn.dimension == this.toDimension && !done) {
+					teleportProcedure(playerIn, this.fromDimension);
+					done = true;
+				}
+			}
+			
+			return true;
+		}
 	}
 	
 	private void teleportProcedure(EntityPlayer player, int dimension)

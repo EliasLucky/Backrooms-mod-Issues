@@ -1,6 +1,5 @@
 package com.skittle.backrooms.world.dimensions.level1;
 
-import com.skittle.backrooms.api.OriginalContexts;
 import com.skittle.backrooms.init.BiomeInit;
 import com.skittle.backrooms.init.DimensionInit;
 
@@ -22,7 +21,7 @@ public class Level1Provider extends WorldProvider
 
 	@Override
 	public IChunkGenerator createChunkGenerator() {
-		return new Level1ChunkGenerator(this.world, "level1/", OriginalContexts.LEVEL1_DIMENSION, true);
+		return new Level1ChunkGenerator(this.world);
 	}
 	
 	@Override

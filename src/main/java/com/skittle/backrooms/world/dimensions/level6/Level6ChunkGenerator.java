@@ -1,21 +1,16 @@
 package com.skittle.backrooms.world.dimensions.level6;
 
-import com.skittle.backrooms.world.dimensions.BackroomsChunkGenerator;
+import com.skittle.backrooms.world.features.BackroomsChunkGenerator;
 
-import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 
 public class Level6ChunkGenerator extends BackroomsChunkGenerator
 {
-	public Level6ChunkGenerator(World world, String structureLocation, ResourceLocation contextItem, boolean ignoreEntities)
-	{
-		super(world, structureLocation, contextItem, ignoreEntities, 67);
-		
-		initializeStructures();
-	}
+	private final World world;
 	
-	private void initializeStructures()
+	Level6ChunkGenerator(World world)
 	{
+		this.world = world;
 		addStructure("type_a_corner_a");
 		addStructure("type_a_corner_b");
 		addStructure("type_a_corner_c");
@@ -123,4 +118,15 @@ public class Level6ChunkGenerator extends BackroomsChunkGenerator
 		addStructure("theend_a");
 		addStructure("theend_b");
 	}
+
+	@Override
+	public String getStructureLocationForLevel() {
+		return "level6/";
+	}
+	
+	@Override
+	public World getWorld() {
+		return this.world;
+	}
+	
 }

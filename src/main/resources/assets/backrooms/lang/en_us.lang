@@ -123,3 +123,6 @@ tile.white_metal_door_block_top.name=White Metal Door Top
 
 itemGroup.backrooms_building_blocks=Backrooms Building Blocks
 itemGroup.backrooms_items=Backrooms Items
+
+#Entities:
+entity.deathmoth.name=Deathmoth
