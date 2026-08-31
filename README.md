@@ -11,6 +11,10 @@ This repository also serves as the main page of issues for Backrooms Ultimate Ed
 All bugs submitted here will be fixed in the next version of the mod.
 Please make sure before submitting a bug that it still exist in the latest version of the mod and that it isn't in the closed section.
 
+## Branch Overview
+
+This branch includes new added Backrooms entities: Deathmoth and Smiler.
+
 # Contribution
 
 ## Can I contribute?
